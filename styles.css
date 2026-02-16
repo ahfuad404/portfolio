@@ -72,54 +72,6 @@ button {
   --ease: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-/* =========================================================
-   TOP-RIGHT ROUNDED GLASS NAV
-   ========================================================= */
-
-.glass-nav {
-  position: sticky;
-  top: 0;
-  z-index: 100;
-  padding: 14px 0;
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  background: rgba(0, 0, 0, 0.45);
-}
-
-.glass-nav__inner {
-  width: min(1120px, 92%);
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-/* Logo */
-.glass-nav__logo img {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  opacity: 0.9;
-}
-
-/* Rounded menu */
-.glass-nav__menu {
-  display: flex;
-  gap: 28px;
-  padding: 10px 22px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.06);
-  border: 1px solid rgba(255, 255, 255, 0.14);
-}
-
-/* Nav links */
-.nav-link {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 12px;
-  letter-spacing: 0.22em;
-  color: rgba(255, 255, 255, 0.7);
-}
-
 /* ---------- Background layers ---------- */
 .bg {
   position: fixed;
