@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Abir Hasan Fuad — Civil & Environmental Engineering Student portfolio." />
+    <meta name="theme-color" content="#000000" />
+    <title>Abir Hasan Fuad — Portfolio</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Ambient background -->
+    <div class="bg" aria-hidden="true">
+      <div class="bg__glow bg__glow--a"></div>
+      <div class="bg__glow bg__glow--b"></div>
+      <div class="bg__grid"></div>
+      <div class="bg__noise"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="top">
+      <div class="container header__inner">
+        <a class="brand" href="#top" aria-label="Go to top">
+          <span class="brand__mark" aria-hidden="true"></span>
+          <span class="brand__text">Abir Hasan Fuad</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav__toggle" type="button" aria-label="Open menu" aria-expanded="false">
+            <span class="nav__toggleLines" aria-hidden="true"></span>
+          </button>
+
+          <ul class="nav__list" id="navList">
+            <li class="nav__item"><a class="nav__link" href="#about">About</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+            <li class="nav__item"><a class="nav__link" href="#qr">QR</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero section" aria-label="Hero">
+        <div class="container hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow reveal">Civil & Environmental Engineering Student</p>
+
+            <h1 class="hero__title reveal">
+              Building the Future<br />
+              Through Engineering
+            </h1>
+
+            <p class="hero__subtitle reveal">
+              Engineering ideas into sustainable real-world solutions.
+            </p>
+
+            <div class="hero__cta reveal">
+              <a class="btn btn--primary" href="#contact">
+                <span class="btn__icon" aria-hidden="true"><i class="fa-solid fa-paper-plane"></i></span>
+                <span>Contact</span>
+              </a>
+
+              <a class="btn btn--ghost" href="mailto:me@abirhasanfuad.pro.bd">
+                <span class="btn__icon" aria-hidden="true"><i class="fa-regular fa-envelope"></i></span>
+                <span>Email</span>
+              </a>
+            </div>
+
+            <div class="hero__meta reveal" role="list" aria-label="Quick info">
+              <div class="pill" role="listitem">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+                <span>Dhaka, Bangladesh</span>
+              </div>
+              <div class="pill" role="listitem">
+                <i class="fa-solid fa-building-columns" aria-hidden="true"></i>
+                <span>North South University</span>
+              </div>
+              <div class="pill" role="listitem">
+                <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+                <span>Infrastructure • Sustainability • Tech</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile card -->
+          <aside class="profileCard card reveal" aria-label="Profile card">
+            <div class="profileCard__top">
+              <div class="avatar" aria-label="Profile photo">
+                <!-- Replace assets/profile.jpg with your photo -->
+                <img src="assets/profile.jpg" alt="Portrait of Abir Hasan Fuad" loading="lazy" />
+              </div>
+
+              <div class="profileCard__identity">
+                <h2 class="profileCard__name">Abir Hasan Fuad</h2>
+                <p class="profileCard__role">Civil & Environmental Engineering Student</p>
+              </div>
+            </div>
+
+            <p class="profileCard__line">
+              Focused on precision, discipline, and innovation—turning engineering concepts into practical impact.
+            </p>
+
+            <div class="profileCard__actions">
+              <a class="chip" href="tel:+8801710105696" aria-label="Call Abir">
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                <span>Call</span>
+              </a>
+              <a class="chip" href="mailto:me@abirhasanfuad.pro.bd" aria-label="Email Abir">
+                <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+                <span>Mail</span>
+              </a>
+              <a class="chip" href="#about" aria-label="Read about Abir">
+                <i class="fa-regular fa-user" aria-hidden="true"></i>
+                <span>About</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+
+        <div class="hero__scrollHint" aria-hidden="true">
+          <span class="hero__scrollDot"></span>
+          <span class="hero__scrollText">Scroll</span>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section" id="about" aria-label="About me">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2 class="sectionHead__title">About Me</h2>
+            <p class="sectionHead__subtitle">A focused, modern engineering mindset—grounded in sustainability.</p>
+          </div>
+
+          <div class="aboutGrid">
+            <article class="card aboutCard reveal">
+              <h3 class="card__title">Profile</h3>
+              <p class="card__text">
+                I’m currently studying Civil and Environmental Engineering at North South University.
+                I’m deeply interested in infrastructure, sustainable development, and integrating technology into modern engineering practice.
+                I’m continuously strengthening my technical and analytical skills while preparing for real industry challenges.
+                I value precision, discipline, and innovation in both academic work and collaborative environments.
+              </p>
+
+              <div class="aboutCard__highlights" role="list" aria-label="Highlights">
+                <div class="stat" role="listitem">
+                  <span class="stat__kicker">Focus</span>
+                  <span class="stat__value">Sustainable Infrastructure</span>
+                </div>
+                <div class="stat" role="listitem">
+                  <span class="stat__kicker">Approach</span>
+                  <span class="stat__value">Analytical & Detail-Oriented</span>
+                </div>
+                <div class="stat" role="listitem">
+                  <span class="stat__kicker">Mindset</span>
+                  <span class="stat__value">Disciplined & Innovative</span>
+                </div>
+              </div>
+            </article>
+
+            <aside class="card aboutSide reveal" aria-label="Quick contact">
+              <h3 class="card__title">Quick Contact</h3>
+
+              <div class="kv">
+                <div class="kv__row">
+                  <span class="kv__label">Email</span>
+                  <a class="kv__value" href="mailto:me@abirhasanfuad.pro.bd">me@abirhasanfuad.pro.bd</a>
+                </div>
+                <div class="kv__row">
+                  <span class="kv__label">Phone</span>
+                  <a class="kv__value" href="tel:+8801710105696">01710105696</a>
+                </div>
+              </div>
+
+              <div class="divider" role="separator" aria-hidden="true"></div>
+
+              <p class="muted">
+                Prefer a fast response? WhatsApp is usually the quickest.
+              </p>
+
+              <div class="stack">
+                <a class="btn btn--primary btn--full" href="https://wa.me/01710105696" target="_blank" rel="noreferrer">
+                  <span class="btn__icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></span>
+                  <span>Message on WhatsApp</span>
+                </a>
+                <a class="btn btn--ghost btn--full" href="#contact">
+                  <span class="btn__icon" aria-hidden="true"><i class="fa-solid fa-grid-2"></i></span>
+                  <span>Social Cards</span>
+                </a>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact / Social Cards -->
+      <section class="section" id="contact" aria-label="Contact and social links">
+        <div class="container">
+          <div class="sectionHead reveal">
+            <h2 class="sectionHead__title">Contact</h2>
+            <p class="sectionHead__subtitle">Reach out through any platform—clean, direct, and fast.</p>
+          </div>
+
+          <div class="cardsGrid" role="list" aria-label="Social cards">
+            <a class="socialCard card reveal" role="listitem" href="mailto:me@abirhasanfuad.pro.bd" aria-label="Email Abir">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-regular fa-envelope"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">Mail</div>
+                <div class="socialCard__meta">me@abirhasanfuad.pro.bd</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <a class="socialCard card reveal" role="listitem" href="tel:+8801710105696" aria-label="Call Abir">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">Phone</div>
+                <div class="socialCard__meta">01710105696</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <a class="socialCard card reveal" role="listitem" href="https://www.linkedin.com/in/abir-hasan-fuad-966279322" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-brands fa-linkedin-in"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">LinkedIn</div>
+                <div class="socialCard__meta">Professional profile</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <a class="socialCard card reveal" role="listitem" href="https://www.facebook.com/abirhasanfuad.404" target="_blank" rel="noreferrer" aria-label="Facebook">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">Facebook</div>
+                <div class="socialCard__meta">Updates & posts</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <a class="socialCard card reveal" role="listitem" href="https://www.instagram.com/a_b_i_r_h_a_s_a_n_f_u_a_d/" target="_blank" rel="noreferrer" aria-label="Instagram">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-brands fa-instagram"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">Instagram</div>
+                <div class="socialCard__meta">Visual updates</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <a class="socialCard card reveal" role="listitem" href="https://wa.me/01710105696" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">WhatsApp</div>
+                <div class="socialCard__meta">Fastest response</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <a class="socialCard card reveal" role="listitem" href="https://discord.com/users/754368754712051775" target="_blank" rel="noreferrer" aria-label="Discord">
+              <div class="socialCard__icon" aria-hidden="true"><i class="fa-brands fa-discord"></i></div>
+              <div class="socialCard__body">
+                <div class="socialCard__title">Discord</div>
+                <div class="socialCard__meta">Chat & community</div>
+              </div>
+              <div class="socialCard__arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- QR -->
+      <section class="section section--tight" id="qr" aria-label="QR code">
+        <div class="container">
+          <div class="qrWrap card reveal">
+            <div class="sectionHead sectionHead--center">
+              <h2 class="sectionHead__title">Connect Instantly</h2>
+              <p class="sectionHead__subtitle">Scan the QR code to reach me quickly.</p>
+            </div>
+
+            <div class="qr">
+              <!-- Replace assets/qr.png with your QR image -->
+              <img src="assets/qr.png" alt="QR code to connect with Abir Hasan Fuad" loading="lazy" />
+            </div>
+
+            <p class="qr__caption muted">
+              Tip: Save this contact for quick access—email and WhatsApp are the fastest.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" aria-label="Footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="footer__name">Abir Hasan Fuad</div>
+          <a class="footer__email" href="mailto:me@abirhasanfuad.pro.bd">me@abirhasanfuad.pro.bd</a>
+          <div class="footer__copy">© <span id="year"></span> Abir Hasan Fuad. All rights reserved.</div>
+        </div>
+
+        <div class="footer__right" aria-label="Footer social links">
+          <a class="iconBtn" href="https://www.linkedin.com/in/abir-hasan-fuad-966279322" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a class="iconBtn" href="https://www.facebook.com/abirhasanfuad.404" target="_blank" rel="noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a class="iconBtn" href="https://www.instagram.com/a_b_i_r_h_a_s_a_n_f_u_a_d/" target="_blank" rel="noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a class="iconBtn" href="https://wa.me/01710105696" target="_blank" rel="noreferrer" aria-label="WhatsApp">
+            <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+          </a>
+          <a class="iconBtn" href="mailto:me@abirhasanfuad.pro.bd" aria-label="Email">
+            <i class="fa-regular fa-envelope" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+      <button class="toTop" type="button" aria-label="Scroll to top">
+        <i class="fa-solid fa-arrow-up" aria-hidden="true"></i>
+      </button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
