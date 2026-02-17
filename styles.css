@@ -1076,7 +1076,7 @@ button {
 .bg-rain {
   position: absolute;
   inset: 0;
-  background-image: url("assets/rain-glass.png");
+  background-image: url("assets/rain glass.png");
   background-size: cover;
   background-position: center;
   opacity: 0.25;
